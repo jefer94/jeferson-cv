@@ -1,0 +1,26 @@
+// body
+//   background-color: #333
+
+#root > div, #root > aside
+  display: block
+  float: left
+  overflow-x: hidden
+  overflow-y: auto
+
+::-webkit-scrollbar
+  width: 6px!important
+  height: 6px!important
+
+::-webkit-scrollbar-thumb
+  background-color: var(--gray)
+
+::-webkit-scrollbar-track
+  background: hsla(0,0%,100%,.08)
+
+.cv-text-cyan
+  color: var(--cyan)
+  &:hover
+    color: var(--cyan)
+
+a:hover
+  text-decoration: none
