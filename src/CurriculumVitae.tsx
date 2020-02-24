@@ -41,7 +41,7 @@ const python: Project[] = [{
   title: 'South Park Random',
   description: 'Get a spanish episode',
   frameworks: ['BeautifulSoup'],
-  href: 'https://jefer94.github.io/algorithm'
+  href: 'https://github.com/jefer94/south-park-random'
 }] 
 
 const nodejs: Project[] = [{
